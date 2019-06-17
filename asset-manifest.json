@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/legaldiff/static/css/main.bf40f786.chunk.css",
+    "main.js": "/legaldiff/static/js/main.9e7904b1.chunk.js",
+    "main.js.map": "/legaldiff/static/js/main.9e7904b1.chunk.js.map",
+    "runtime~main.js": "/legaldiff/static/js/runtime~main.fa656af8.js",
+    "runtime~main.js.map": "/legaldiff/static/js/runtime~main.fa656af8.js.map",
+    "static/js/2.6ed06749.chunk.js": "/legaldiff/static/js/2.6ed06749.chunk.js",
+    "static/js/2.6ed06749.chunk.js.map": "/legaldiff/static/js/2.6ed06749.chunk.js.map",
+    "index.html": "/legaldiff/index.html",
+    "precache-manifest.2b1e04dab73be7d4f5254a6ae6ed2cc3.js": "/legaldiff/precache-manifest.2b1e04dab73be7d4f5254a6ae6ed2cc3.js",
+    "service-worker.js": "/legaldiff/service-worker.js",
+    "static/css/main.bf40f786.chunk.css.map": "/legaldiff/static/css/main.bf40f786.chunk.css.map"
+  }
+}
