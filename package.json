@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bluebird": "^3.5.5",
+    "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
+    "marked": "^0.6.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-marked": "^0.3.1",
+    "react-scripts": "3.0.1",
+    "react-select": "^3.0.4",
+    "textile-js": "^2.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
