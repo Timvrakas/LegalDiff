@@ -11,6 +11,13 @@ LI:before {
   font-weight: bold;
 }
 
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 h1{
   text-align: center;
   font-size: 2em;
