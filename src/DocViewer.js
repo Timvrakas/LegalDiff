@@ -17,7 +17,7 @@ class DocViewer extends React.Component {
     componentDidMount() {
         var self = this;
         const gh = new GitHub({ username: 'TIMVRAKAS', token: '496052d84361126df057edb22030a0d2c227b6c5' });
-        let repo = gh.getRepo('Timvrakas', 'Legaldiff');
+        let repo = gh.getRepo('Timvrakas', 'ASSU-LegalDiff');
 
         var list = repo.getContents('master', 'info.json', 'false')
             .then(function (info) {
