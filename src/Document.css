@@ -1,6 +1,26 @@
 OL { counter-reset: item }
+
 LI { display: block }
+
 LI:before { 
   content: counters(item, ".") ") ";
+  counter-increment: item;
+}
+
+h1{
+  text-align: center;
+}
+
+.doc{
+  margin: 1%;
+}
+
+div > ol > li:before{
+  content: "Article "counters(item, ".") ") ";
+  counter-increment: item;
+}
+
+div > ol > li > ol > li:before{
+  content: "Section "counters(item, ".") ") ";
   counter-increment: item;
 }
