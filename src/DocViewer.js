@@ -50,7 +50,11 @@ class DocViewer extends React.Component {
         return (
             <header className="DocViewer">
                 <div className="row">
-                    <Select options={this.state.docs} getOptionLabel={function (doc) { return doc.name }} onChange={this.changeDoc} />
+                    <Select
+                    options={this.state.docs}
+                    getOptionLabel={function (doc) { return doc.name }}
+                    onChange={this.changeDoc}
+                    />
                 </div>
                 <Document ref={this._child} />
             </header>
