@@ -1,54 +1,65 @@
-OL { counter-reset: item }
+.md-doc OL { counter-reset: item }
 
-LI {
+.md-doc LI {
   display: block;
   font-size: 1em;
 }
 
-LI:before { 
+.md-doc LI:before { 
   content: counters(item, ".") ") ";
   counter-increment: item;
   font-weight: bold;
 }
 
-img{
+.md-doc img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
 }
 
-h1{
+.md-doc h1{
   text-align: center;
   font-size: 2em;
 }
 
-.doc{
+.md-doc{
   margin: 1%;
 }
 
-div > ol > li:before{
+.md-doc > ol > li:before{
   content: "Article "counters(item, ".") ") ";
   counter-increment: item;
   font-weight: bold;
 }
 
-div > ol > li {
+.md-doc > ol > li {
   font-size: 1.33em;
   font-weight: 450;
 }
 
-div > ol > li > ol > li {
+.md-doc > ol > li > ol > li {
   font-size: 0.9em;
   font-weight: normal;
 }
 
-div > ol > li > ol > li > ol > li {
+.md-doc > ol > li > ol > li > ol > li {
   font-size: 0.9em;
 }
 
-div > ol > li > ol > li:before{
+.md-doc > ol > li > ol > li:before{
   content: "Section "counters(item, ".") ") ";
   counter-increment: item;
   font-weight: bold;
+}
+
+.md-doc ins {
+  text-decoration: none;
+  background-color: #d4fcbc;
+}
+
+.md-doc del {
+  text-decoration: line-through;
+  background-color: #fbb6c2;
+  color: #555;
 }

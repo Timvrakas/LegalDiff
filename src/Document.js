@@ -24,7 +24,7 @@ class Document extends React.Component {
     }
 
     render() {
-        return <div class="doc" dangerouslySetInnerHTML={this.state.data} />
+        return <div class="md-doc" dangerouslySetInnerHTML={this.state.data} />
     }
 
 }
