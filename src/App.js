@@ -2,23 +2,27 @@ import React from 'react';
 import DocViewer from './DocViewer'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "react-tabs/style/react-tabs.css";
-import DiffDocument from './DiffDocument';
+import GitHub from 'github-api';
+import DiffViewer from './DiffViewer';
 
 
 function App() {
+  const gh = new GitHub({ username: 'TIMVRAKAS', token: '496052d84361126df057edb22030a0d2c227b6c5' });
+  let repo = gh.getRepo('Timvrakas', 'ASSU-LegalDiff');
+
   return (
     <div className="App">
       <Tabs>
         <TabList>
-          <Tab>Single Document</Tab>
-          <Tab>Compare Documents</Tab>
+          <Tab>View Documents</Tab>
+          <Tab>Compare Versions</Tab>
         </TabList>
 
         <TabPanel>
-          <DocViewer />
+          <DocViewer repo={repo} />
         </TabPanel>
         <TabPanel>
-          <DiffDocument urls={['https://raw.githubusercontent.com/Timvrakas/ASSU-LegalDiff/master/constitution.md','https://raw.githubusercontent.com/Timvrakas/ASSU-LegalDiff/F2019-Test/constitution.md']}/>
+          <DiffViewer repo={repo}/>
         </TabPanel>
       </Tabs>
     </div>

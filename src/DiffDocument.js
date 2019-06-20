@@ -33,7 +33,7 @@ class DiffDocument extends React.Component {
     }
 
     render() {
-        return <div class="md-doc" dangerouslySetInnerHTML={this.state.data} />
+        return <div className="md-doc" dangerouslySetInnerHTML={this.state.data} />
     }
 
 }
