@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/LegalDiff/static/css/main.e42ec684.chunk.css",
-    "main.js": "/LegalDiff/static/js/main.cb8ba6ea.chunk.js",
-    "main.js.map": "/LegalDiff/static/js/main.cb8ba6ea.chunk.js.map",
+    "main.css": "/LegalDiff/static/css/main.3df87bc3.chunk.css",
+    "main.js": "/LegalDiff/static/js/main.e04f0aa9.chunk.js",
+    "main.js.map": "/LegalDiff/static/js/main.e04f0aa9.chunk.js.map",
     "runtime~main.js": "/LegalDiff/static/js/runtime~main.1469d450.js",
     "runtime~main.js.map": "/LegalDiff/static/js/runtime~main.1469d450.js.map",
     "static/css/2.5c17b9f1.chunk.css": "/LegalDiff/static/css/2.5c17b9f1.chunk.css",
     "static/js/2.224f0e7d.chunk.js": "/LegalDiff/static/js/2.224f0e7d.chunk.js",
     "static/js/2.224f0e7d.chunk.js.map": "/LegalDiff/static/js/2.224f0e7d.chunk.js.map",
     "index.html": "/LegalDiff/index.html",
-    "precache-manifest.0d122457f14d5e30fe04a0df6dbadb33.js": "/LegalDiff/precache-manifest.0d122457f14d5e30fe04a0df6dbadb33.js",
+    "precache-manifest.d31b0f43679180c0888d46698d83be1c.js": "/LegalDiff/precache-manifest.d31b0f43679180c0888d46698d83be1c.js",
     "service-worker.js": "/LegalDiff/service-worker.js",
     "static/css/2.5c17b9f1.chunk.css.map": "/LegalDiff/static/css/2.5c17b9f1.chunk.css.map",
-    "static/css/main.e42ec684.chunk.css.map": "/LegalDiff/static/css/main.e42ec684.chunk.css.map"
+    "static/css/main.3df87bc3.chunk.css.map": "/LegalDiff/static/css/main.3df87bc3.chunk.css.map"
   }
 }

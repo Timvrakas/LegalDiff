@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d023a8e5752eab164e1ce62fd702742d",
+    "revision": "210c1c92b18d3810595ce870200a6945",
     "url": "/LegalDiff/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LegalDiff/static/css/2.5c17b9f1.chunk.css"
   },
   {
-    "revision": "b876d8ccfe54cec3a1dc",
-    "url": "/LegalDiff/static/css/main.e42ec684.chunk.css"
+    "revision": "77af96d38105c9a89eff",
+    "url": "/LegalDiff/static/css/main.3df87bc3.chunk.css"
   },
   {
     "revision": "dcafb30b43b55dba7527",
     "url": "/LegalDiff/static/js/2.224f0e7d.chunk.js"
   },
   {
-    "revision": "b876d8ccfe54cec3a1dc",
-    "url": "/LegalDiff/static/js/main.cb8ba6ea.chunk.js"
+    "revision": "77af96d38105c9a89eff",
+    "url": "/LegalDiff/static/js/main.e04f0aa9.chunk.js"
   },
   {
     "revision": "ff9ab7ade40497edba18",
