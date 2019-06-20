@@ -20,11 +20,15 @@
 
 .md-doc h1{
   text-align: center;
+  align-content: center;
+  display: block;
   font-size: 2em;
 }
 
 .md-doc{
-  margin: 1%;
+  padding: 10px;
+  background-color: #ffffff;
+  font-family: 'Times New Roman', Times, serif
 }
 
 .md-doc > ol > li:before{

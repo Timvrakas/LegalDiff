@@ -30,13 +30,13 @@ class DiffViewer extends React.Component {
 
     render() {
         return (
-            <header className="DiffViewer">
+            <div className="DiffViewer">
                 Document 1:
                 <DocSelector repo={this.props.repo} onURL={this.onChangeBase} />
                 Document 2:
                 <DocSelector repo={this.props.repo} onURL={this.onChangeDiff} />
                 <DiffDocument ref={this._diff} />
-            </header>
+            </div>
         );
     }
 }

@@ -14,8 +14,8 @@ class DocSelector extends React.Component {
         this.changeBranch = this.changeBranch.bind(this)
 
         this.state = {
-            branches: null,
-            docs: null
+            branches: [],
+            docs: []
         };
 
         this.doc = null;
@@ -59,7 +59,7 @@ class DocSelector extends React.Component {
 
     render() {
         return (
-            <header className="doc-selector">
+            <div className="doc-selector">
                 <div className="refspec">
                     Branch:
                     <Select
@@ -76,7 +76,7 @@ class DocSelector extends React.Component {
                         onChange={this.changeDoc}
                     />
                 </div>
-            </header>
+            </div>
         );
     }
 }

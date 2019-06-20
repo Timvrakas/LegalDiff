@@ -16,10 +16,10 @@ class DocViewer extends React.Component {
 
     render() {
         return (
-            <header className="DocViewer">
+            <div className="DocViewer">
                 <DocSelector repo={this.props.repo} onURL={this.onURL} />
                 <Document ref={this._doc} />
-            </header>
+            </div>
         );
     }
 }
