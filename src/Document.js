@@ -15,9 +15,9 @@ class Document extends React.Component {
         fetch(url)
             .then(function (response) {
                 return response.text();
-            })
-            .then(function (text) {
-                return marked(text, { sanitize: true });
+            //})
+            //.then(function (text) {
+            //    return marked(text, { sanitize: true });
             }).then(function (doc) {
                 self.setState({ data: { __html: doc } });
             });
