@@ -7,7 +7,7 @@ import DiffViewer from './DiffViewer';
 
 function App() {
   const gh = new GitHub({ username: 'TIMVRAKAS', token: '496052d84361126df057edb22030a0d2c227b6c5' });
-  let repo = gh.getRepo('Timvrakas', 'ASSU-LegalDiff');
+  let repo = gh.getRepo('stanford-assu', 'Governing-Docs');
 
   return (
     <div id="page-container">
