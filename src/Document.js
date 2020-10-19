@@ -1,5 +1,4 @@
 import React from 'react';
-import marked from 'marked';
 import './Document.css';
 
 class Document extends React.Component {
