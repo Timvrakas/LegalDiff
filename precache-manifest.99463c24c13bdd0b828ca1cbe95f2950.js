@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b957f90abf37e3988a2312a193df515c",
+    "revision": "f01e22a1ff3732800d226739e73d061c",
     "url": "/LegalDiff/index.html"
   },
   {
-    "revision": "ca0d03506a64921f40a1",
+    "revision": "32231d3c64fda0ed4cd9",
     "url": "/LegalDiff/static/css/2.5c17b9f1.chunk.css"
   },
   {
-    "revision": "2c5cb10df4506613ef4b",
+    "revision": "993a075d6a74c1f88db6",
     "url": "/LegalDiff/static/css/main.3df87bc3.chunk.css"
   },
   {
-    "revision": "ca0d03506a64921f40a1",
-    "url": "/LegalDiff/static/js/2.7b650a95.chunk.js"
+    "revision": "32231d3c64fda0ed4cd9",
+    "url": "/LegalDiff/static/js/2.270ec4f7.chunk.js"
   },
   {
-    "revision": "2c5cb10df4506613ef4b",
-    "url": "/LegalDiff/static/js/main.b6a42f28.chunk.js"
+    "revision": "993a075d6a74c1f88db6",
+    "url": "/LegalDiff/static/js/main.c569fba6.chunk.js"
   },
   {
     "revision": "ff9ab7ade40497edba18",
